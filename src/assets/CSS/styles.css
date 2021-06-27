@@ -1,0 +1,140 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+  }
+
+body {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    max-height: 100vh;
+    overflow: auto;
+}
+
+a {
+    color: black;
+}
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.filter-effect {
+    filter: grayscale(100%);
+}
+
+.top-left-text-overlay {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 30px;
+    font-family: BebasNeue;
+    letter-spacing: 5px;
+    color: white;
+}
+
+@media screen and (min-width: 992px) {
+    .top-left-text-overlay {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        font-size: 40px;
+        font-family: BebasNeue;
+        letter-spacing: 7px;
+        color: white;
+    }
+    
+  }
+
+  @media screen and (min-width: 1440px) {
+    .top-left-text-overlay {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        font-size: 60px;
+        font-family: BebasNeue;
+        letter-spacing: 10px;
+        color: white;
+    }
+    
+  }
+
+  @media screen and (min-width: 1920px) {
+    .top-left-text-overlay {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+        font-size: 60px;
+        font-family: BebasNeue;
+        letter-spacing: 10px;
+        color: white;
+    }
+    
+  }
+
+  .home-page-name::before {
+        content: "ABSIS";
+        animation: nameAnimation 1 4s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards; 
+}
+
+  @keyframes nameAnimation {
+  
+    0% {
+        content: "ABSIS";
+    }
+    6% {
+        content: "ABH SIS";
+    }
+    12% {
+        content: "ABHI SIS";
+    }
+    18% {
+        content: "ABHIJ SIS";
+    }
+    24% {
+        content: "ABHIJI SIS";
+    }
+    30% {
+        content: "ABHIJIT SIS";
+    }
+    36% {
+        content: "ABHIJITS SIS";
+    }
+    42% {
+        content: "ABHIJITSI SIS";
+    }
+    48% {
+        content: "ABHIJITSIN SIS";
+    }
+    54% {
+        content: "ABHIJITSING SIS";
+    }
+    60% {
+        content: "ABHIJITSINGH SIS";
+    }
+    66% {
+        content: "ABHIJITSINGH SISO";
+    }
+    72% {
+        content: "ABHIJITSINGH SISOD";
+    }
+    78% {
+        content: "ABHIJITSINGH SISODI";
+    }
+    84% {
+        content: "ABHIJITSINGH SISODIY";
+    }
+    90% {
+        content: "ABHIJITSINGH SISODIYA";
+    }
+    96% {
+        content: "ABHIJITSINGH SISODIYA";
+    }
+    100% {
+        content: "ABHIJITSINGH SISODIYA";
+    }
+}

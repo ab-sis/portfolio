@@ -1,0 +1,95 @@
+.trapezoid {
+  border-bottom: 35px solid blue;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 100px;
+}
+
+.trapezoid-inverted {
+  border-top: 35px solid blue;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .trapezoid {
+    border-bottom: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+
+  .trapezoid-inverted {
+    border-top: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .trapezoid {
+    border-bottom: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+
+  .trapezoid-inverted {
+    border-top: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .trapezoid {
+    border-bottom: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+
+  .trapezoid-inverted {
+    border-top: 50px solid blue;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 150px;
+  }
+}
+
+.header-link-text {
+  font-size: 13px;
+  padding-left: 33px;
+  padding-top: 6px;
+}
+
+@media screen and (min-width: 992px) {
+  .header-link-text {
+    font-size: 20px;
+    padding-left: 48px;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-link-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .header-link-text {
+    font-size: 20px;
+  }
+}
