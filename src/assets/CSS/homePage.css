@@ -9,15 +9,14 @@
     background-color: black;
 }
 
-  .home-page-name::before {
-        content: "ABSIS";
-        animation: nameAnimation 1 3s;
-        animation-delay: 3s;
-        animation-fill-mode: forwards; 
-    }
+.home-page-name::before {
+    content: "ABSIS";
+    animation: nameAnimation 1 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
 
-  @keyframes nameAnimation {
-  
+@keyframes nameAnimation {
     0% {
         content: "ABSIS";
     }
@@ -86,14 +85,13 @@
 }
 
 .home-page-frontend-dev::before {
-        content: "";
-        animation: frontendDevAnimation 1 1s;
-        animation-delay: 5s;
-        animation-fill-mode: forwards; 
-    }
+    content: "";
+    animation: frontendDevAnimation 1 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
 
 @keyframes frontendDevAnimation {
-  
     0% {
         content: "<F>";
     }
@@ -162,14 +160,13 @@
 }
 
 .home-page-anime-overlay::before {
-        content: "";
-        animation: otakuAnimation 1 1s;
-        animation-delay: 5s;
-        animation-fill-mode: forwards; 
+    content: "";
+    animation: otakuAnimation 1 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes otakuAnimation {
-  
     0% {
         content: "<O>";
     }
@@ -199,14 +196,13 @@
 }
 
 .home-page-gamer-overlay::before {
-        content: "";
-        animation: gamerAnimation 1 1s;
-        animation-delay: 5s;
-        animation-fill-mode: forwards; 
+    content: "";
+    animation: gamerAnimation 1 1s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes gamerAnimation {
-  
     0% {
         content: "<G>";
     }
@@ -225,90 +221,82 @@
 }
 
 @media screen and (min-width: 992px) {
-     .top-left-heading-overlay {
+    .top-left-heading-overlay {
         top: 70px;
         left: 30px;
         font-size: 40px;
         letter-spacing: 7px;
     }
-
     .top-left-text-overlay {
-    top: 150px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+        top: 150px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .top-left-anime-overlay {
+        top: 190px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .top-left-gamer-overlay {
+        top: 230px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
 }
 
-    .top-left-anime-overlay {
-    top: 190px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    }
-
-    .top-left-gamer-overlay {
-    top: 230px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    }
-  }
-
-  @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .top-left-heading-overlay {
         top: 70px;
         left: 30px;
         font-size: 60px;
         letter-spacing: 10px;
     }
-
     .top-left-text-overlay {
-    top: 180px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+        top: 180px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
     }
-
-   .top-left-anime-overlay {
-    top: 220px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+    .top-left-anime-overlay {
+        top: 220px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
     }
-
     .top-left-gamer-overlay {
-    top: 260px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+        top: 260px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
     }
-  }
+}
 
- @media screen and (min-width: 1920px) {
-.top-left-heading-overlay {
+@media screen and (min-width: 1920px) {
+    .top-left-heading-overlay {
         top: 70px;
         left: 30px;
         font-size: 60px;
         letter-spacing: 10px;
     }
- .top-left-text-overlay {
-    top: 180px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
-}
-
+    .top-left-text-overlay {
+        top: 180px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
     .top-left-anime-overlay {
-    top: 220px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+        top: 220px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
     }
-
-       .top-left-gamer-overlay {
-    top: 260px;
-    left: 40px;
-    font-size: 20px;
-    letter-spacing: 5px;
+    .top-left-gamer-overlay {
+        top: 260px;
+        left: 40px;
+        font-size: 20px;
+        letter-spacing: 5px;
     }
- }
+}

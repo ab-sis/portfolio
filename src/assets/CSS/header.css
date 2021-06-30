@@ -110,3 +110,11 @@
 .header-link-text:hover + .trapezoid-inverted {
   border-top-color: red;
 }
+
+.trapezoid-active {
+  border-bottom-color: red;
+}
+
+.trapezoid-inverted-active {
+  border-top-color: red;
+}
